@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>
+        Guilty Gear Strive Tournament Bracket
+    </title>
+
+</head>
+
+<body>
+    <div>
+        <h1>
+            GUILTY GEAR BRACKET
+        </h1>
+        <div id="stagetitles">
+            <h2>
+                Participants:
+            </h2>
+            <h3>
+                Quarters
+            </h3>
+            <h3 id="semitext">
+                Semis
+            </h3>
+            <h3 id="finaltext">
+                Finals
+            </h3>
+            <h3 id="gftext">
+                Grand Finals
+            </h3>
+
+        </div>
+    </div>
+    <div id="page">
+        <div id="dragParticipants">
+            <ul class="participants">
+                <li class="player">
+                    <div id="player1" class="box draggable" draggable="true">
+                        <div class="namebox">
+                            <p class="names">Zedrikk</p>
+                        </div>
+                        <div class="dropdown">
+                            <div class="select">
+                                <span class="selected">
+                                    <p1 class="fighters">May</p1><img class="main" src="portraits/archive_may-1.jpg">
+                                </span>
+                            </div>
+                            <ul class="menu">
+                                <!-- <li><img id="dropimg" src="portraits/archive.jpg">
+                                    <p id="fighters">Sol</p>
+                                </li> -->
+                                <li>
+                                    <p1 class="fighters">Ramlethal</p1><img class="dropimg"
+                                        src="portraits/archive_ram-1.jpg">
+                                </li>
+                                <li class="active">
+                                    <p1 class="fighters">May</p1><img class="dropimg" src="portraits/archive_may-1.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="player">
+                    <div id="player2" class="box draggable" draggable="true">
+                        <div class="namebox">
+                            <p class="names">Torru</p>
+                        </div>
+                        <div class="dropdown">
+                            <div class="select">
+                                <span class="selected">
+                                    <p1 class="fighters">Jack-O'</p1><img class="main" src="portraits/jko.jpg">
+                                </span>
+                            </div>
+                            <ul class="menu">
+                                <!-- <li><img class="dropimg" src="portraits/archive.jpg">
+                                    <p class="fighters">Sol</p>
+                                </li> -->
+                                <li>
+                                    <p1 class="fighters">Ramlethal</p1><img class="dropimg"
+                                        src="portraits/archive_ram-1.jpg">
+                                </li>
+                                <li class="active">
+                                    <p1 class="fighters">Jack-O'</p1><img class="dropimg" src="portraits/jko.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Bedman?</p1><img class="dropimg"
+                                        src="portraits\5fve3hdwci.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                </li>
+                <li class="player">
+                    <div id="player3" class="box draggable" draggable="true">
+                        <div class="namebox">
+                            <p class="names">Asunol</p>
+                        </div>
+                        <div class="dropdown">
+                            <div class="select">
+                                <span class="selected">
+                                    <p1 class="fighters">Millia</p1><img class="main" src="portraits/archive_mll.jpg">
+                                </span>
+                            </div>
+                            <ul class="menu">
+                                <!-- <li><img class="dropimg" src="portraits/archive.jpg">
+                                    <p class="fighters">Sol</p>
+                                </li> -->
+
+
+
+                                <li>
+                                    <p1 class="fighters">Sol</p1><img class="dropimg" src="portraits/archive.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Ky</p1><img class="dropimg" src="portraits/archive_kyk.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">May</p1><img class="dropimg" src="portraits/archive_may-1.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Axl</p1><img class="dropimg" src="portraits/archive_axl.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Chipp</p1><img class="dropimg" src="portraits/archive_chp.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Potemkin</p1><img class="dropimg"
+                                        src="portraits/archive_pot.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Faust</p1><img class="dropimg" src="portraits/archive_fau.jpg">
+                                </li>
+                                <li class="active">
+                                    <p1 class="fighters">Millia</p1><img class="dropimg"
+                                        src="portraits/archive_mll.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Zato</p1><img class="dropimg" src="portraits/archive_zat.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Ramlethal</p1><img class="dropimg"
+                                        src="portraits/archive_ram-1.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Leo</p1><img class="dropimg" src="portraits/archive_leo.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Nagoriyuki</p1><img class="dropimg"
+                                        src="portraits/archive_nag.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Giovanna</p1><img class="dropimg"
+                                        src="portraits/archive_gio.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Anji</p1><img class="dropimg" src="portraits/anji-306x305.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">I-No</p1><img class="dropimg"
+                                        src="portraits\rxx82us-1-306x305.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">GoldLewis</p1><img class="dropimg"
+                                        src="portraits\gol-306x305.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Jack-O'</p1><img class="dropimg" src="portraits/jko.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Happy Chaos</p1><img class="dropimg"
+                                        src="portraits\82nCeh3s.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Baiken</p1><img class="dropimg" src="portraits\94gvos0f.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Testament</p1><img class="dropimg"
+                                        src="portraits\icon-1ubduiak.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Brclassget</p1><img class="dropimg"
+                                        src="portraits\38nd9nd2jd73.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Sin</p1><img class="dropimg" src="portraits\n5idg73diw3.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Bedman?</p1><img class="dropimg"
+                                        src="portraits\5fve3hdwci.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Asuka R#</p1><img class="dropimg"
+                                        src="portraits\xnNj771Auw.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Elphelt</p1><img class="dropimg"
+                                        src="portraits/GGXRD-R2_Elphelt_Valentine_Icon.png">
+                                </li>
+                            </ul>
+                        </div>
+                </li>
+                <li class="player">
+                    <div id="player4" class="box draggable" draggable="true">
+                        <div class="namebox">
+                            <p class="names">Hidden</p>
+                        </div>
+                        <div class="dropdown">
+                            <div class="select">
+                                <span class="selected">
+                                    <p1 class="fighters">May</p1><img class="main" src="portraits/archive_may-1.jpg">
+                                </span>
+                            </div>
+                            <ul class="menu">
+                                <li class="active">
+                                    <p1 class="fighters">May</p1><img class="dropimg" src="portraits/archive_may-1.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Jack-O'</p1><img class="dropimg" src="portraits/jko.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                </li>
+                <li class="player">
+                    <div id="player5" class="box draggable" draggable="true">
+                        <div class="namebox">
+                            <p class="names">Myks</p>
+                        </div>
+                        <div class="dropdown">
+                            <div class="select">
+                                <span class="selected">
+                                    <p1 class="fighters">May</p1><img class="main" src="portraits/archive_may-1.jpg">
+                                </span>
+                            </div>
+                            <ul class="menu">
+                                <li class="active">
+                                    <p1 class="fighters">May</p1><img class="dropimg" src="portraits/archive_may-1.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                </li>
+                <li class="player">
+                    <div id="player6" class="box draggable" draggable="true">
+                        <div class="namebox">
+                            <p class="names">Tropicar</p>
+                        </div>
+                        <div class="dropdown">
+                            <div class="select">
+                                <span class="selected">
+                                    <p1 class="fighters">Bridget</p1><img class="main" src="portraits\38nd9nd2jd73.jpg">
+                                </span>
+                            </div>
+                            <ul class="menu">
+                                <li class="active">
+                                    <p1 class="fighters">Bridget</p1><img class="dropimg"
+                                        src="portraits\38nd9nd2jd73.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                </li>
+                <li class="player">
+                    <div id="player7" class="box draggable" draggable="true">
+                        <div class="namebox">
+                            <p class="names">Radio</p>
+                        </div>
+                        <div class="dropdown">
+                            <div class="select">
+                                <span class="selected">
+                                    <p1 class="fighters">Leo</p1><img class="main" src="portraits/archive_leo.jpg">
+                                </span>
+                            </div>
+                            <ul class="menu">
+                                <li class="active">
+                                    <p1 class="fighters">Leo</p1><img class="dropimg" src="portraits/archive_leo.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                </li>
+                <li class="player">
+                    <div id="player8" class="box draggable" draggable="true">
+                        <div class="namebox">
+                            <p class="names">Nathan</p>
+                        </div>
+                        <div class="dropdown">
+                            <div class="select">
+                                <span class="selected">
+                                    <p1 class="fighters">Giovanna</p1><img class="main" src="portraits/archive_gio.jpg">
+                                </span>
+                            </div>
+                            <ul class="menu">
+                                <li class="active">
+                                    <p1 class="fighters">Giovanna</p1><img class="dropimg"
+                                        src="portraits/archive_gio.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                </li>
+                <li class="player">
+                    <div id="player9" class="box draggable" draggable="true">
+                        <div class="namebox">
+                            <p class="names">Salvos</p>
+                        </div>
+                        <div class="dropdown">
+                            <div class="select">
+                                <span class="selected">
+                                    <p1 class="fighters">Chipp</p1><img class="main" src="portraits/archive_chp.jpg">
+                                </span>
+                            </div>
+                            <ul class="menu">
+                                <li class="active">
+                                    <p1 class="fighters">Chipp</p1><img class="dropimg" src="portraits/archive_chp.jpg">
+                                </li>
+                                <li>
+                                    <p1 class="fighters">Testament</p1><img class="dropimg"
+                                        src="portraits\icon-1ubduiak.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                </li>
+                <li class="player">
+                    <div id="player10" class="box draggable" draggable="true">
+                        <div class="namebox">
+                            <p class="names">Stxrmy</p>
+                        </div>
+                        <div class="dropdown">
+                            <div class="select">
+                                <span class="selected">
+                                    <p1 class="fighters">Zato</p1><img class="main" src="portraits/archive_zat.jpg">
+                                </span>
+                            </div>
+                            <ul class="menu">
+                                <li class="active">
+                                    <p1 class="fighters">Zato</p1><img class="dropimg" src="portraits/archive_zat.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                </li>
+            </ul>
+        </div>
+        <div id="bracket">
+            <div id="qs">
+                <div id="semi1" class="semifinal">
+                    <div class="matchup">
+                        <ul>
+                            <il>
+                                <div id="qf1" class="dropzone round p1tab">
+                                </div>
+                                <button class="scorebutton player1">
+                                    0
+                                </button>
+                            </il>
+                            <il>
+                                <div id="qf2" class="dropzone round p2tab">
+                                </div>
+                                <button class="scorebutton player2">
+                                    0
+                                </button>
+                            </il>
+                        </ul>
+                        <div class="dropzone win1 qfwin">
+                        </div>
+                        <button class="scorebutton winbutton1 winbutton">
+                            0
+                        </button>
+                    </div>
+                    <div class="matchup">
+                        <ul>
+                            <il>
+                                <div id="qf3" class="dropzone round p1tab">
+                                </div>
+                                <button class="scorebutton player1">
+                                    0
+                                </button>
+                            </il>
+                            <il>
+                                <div id="qf4" class="dropzone round p2tab">
+                                </div>
+                                <button class="scorebutton player2">
+                                    0
+                                </button>
+                            </il>
+                        </ul>
+                        <div class="dropzone win2 qfwin">
+                        </div>
+                        <button class="scorebutton winbutton2 winbutton">
+                            0
+                        </button>
+                    </div>
+                </div>
+                <div id="semi2" class="semifinal">
+                    <div class="matchup">
+                        <ul>
+                            <il>
+                                <div id="qf5" class="dropzone round p1tab">
+                                </div>
+                                <button class="scorebutton player1">
+                                    0
+                                </button>
+                            </il>
+                            <il>
+                                <div id="qf6" class="dropzone round p2tab">
+                                </div>
+                                <button class="scorebutton player2">
+                                    0
+                                </button>
+                            </il>
+                        </ul>
+                        <div class="dropzone win1 qfwin">
+                        </div>
+                        <button class="scorebutton winbutton1 winbutton">
+                            0
+                        </button>
+                    </div>
+                    <div class="matchup">
+                        <ul>
+                            <il>
+                                <div id="qf7" class="dropzone round p1tab">
+                                </div>
+                                <button class="scorebutton player1">
+                                    0
+                                </button>
+                            </il>
+                            <il>
+                                <div id="qf8" class="dropzone round p2tab">
+                                </div>
+                                <button class="scorebutton player2">
+                                    0
+                                </button>
+                            </il>
+                        </ul>
+                        <div class="dropzone win2 qfwin">
+                        </div>
+                        <button class="scorebutton winbutton2 winbutton">
+                            0
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="fgf">
+                <div class="matchup">
+                    <ul>
+                        <il>
+                            <div class="dropzone round p1tab">
+                            </div>
+                            <button class="scorebutton final1 fbutton">
+                                0
+                            </button>
+                        </il>
+                        <il>
+                            <div class="dropzone round p2tab">
+                            </div>
+                            <button class="scorebutton final2 fbutton">
+                                0
+                            </button>
+                        </il>
+                    </ul>
+                    <div class="dropzone win">
+                    </div>
+                    <button class="scorebutton grandfinal">
+                        0
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="button.js"></script>
+    <script src="drag.js"></script>
+    <script src="dropdown.js"></script>
+    <script src="qfwin.js"></script>
+    <script src="sfwin.js"></script>
+    <script src="fwin.js"></script>
+</body>
+
+</html>
